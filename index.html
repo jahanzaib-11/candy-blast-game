@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy Blast Deluxe</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 30px;
+            padding: 40px;
+            max-width: 800px;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+        h1 {
+            font-size: 3em;
+            background: linear-gradient(135deg, #ff6b6b, #ffd93d);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .download-btn {
+            background: #4CAF50;
+            color: white;
+            padding: 15px 40px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px 0;
+        }
+        .key {
+            background: #333;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 8px;
+            display: inline-block;
+            margin: 3px;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 30px 0;
+        }
+        .feature {
+            background: #f0f0f0;
+            padding: 15px;
+            border-radius: 15px;
+            flex: 1;
+            min-width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🍬 CANDY BLAST DELUXE 🍬</h1>
+        <p style="font-size: 1.2em; color: #764ba2;">The Ultimate Candy Catcher Game!</p>
+        
+        <a href="candy_blast_game.py" download class="download-btn">
+            ⬇️ DOWNLOAD GAME ⬇️
+        </a>
+        
+        <div class="features">
+            <div class="feature">🎮 8 Characters</div>
+            <div class="feature">💥 10 Power-ups</div>
+            <div class="feature">⭐ 10 Levels</div>
+            <div class="feature">🏆 High Score</div>
+        </div>
+        
+        <div style="background: #2d3748; color: white; padding: 20px; border-radius: 15px; text-align: left;">
+            <h3>🎯 HOW TO PLAY</h3>
+            <p>1. Install Python from <a href="https://python.org" style="color: #ffd93d;">python.org</a></p>
+            <p>2. Run: <code>pip install pygame</code></p>
+            <p>3. Download and run: <code>python candy_blast_game.py</code></p>
+            <br>
+            <p><span class="key">←</span> <span class="key">→</span> or <span class="key">A</span> <span class="key">D</span> = Move</p>
+            <p><span class="key">SPACE</span> = Start | <span class="key">M</span> = Mute | <span class="key">ESC</span> = Quit</p>
+        </div>
+        
+        <p style="margin-top: 20px; color: #666;">Made with 💖 | Share on Facebook!</p>
+    </div>
+</body>
+</html>
